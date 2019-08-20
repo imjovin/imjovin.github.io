@@ -4,4 +4,5 @@ $(document).ready(function(){
       {width: 1080,url:"assets/imgs/header1.jpg",}
       ,{width: 1080,url:"assets/imgs/header2.jpg",}
     ], {duration: 1000, fade: 750});
+    $('.parallax').parallax();
   });
